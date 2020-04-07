@@ -1,0 +1,320 @@
+/*=============================================================================================================================================*/
+/*                                                      Created by stoXmod -nishara senadheera                                                 */
+/*                                                    https://www.facebook.com/nishara.senadeera                                               */
+/*=============================================================================================================================================*/
+.container-spiral {
+    margin: 4% auto;
+    width: 210px;
+    height: 530px;
+    position: relative;
+    perspective: 900px
+}
+#messageBox {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  
+}
+.container-spiral figure {
+    margin: 0
+}
+
+#carousel-spiral {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotation 20s infinite linear
+}
+
+#carousel-spiral:hover {
+    animation-play-state: paused
+}
+
+#carousel-spiral figure {
+    display: block;
+    position: absolute;
+    width: 186px;
+    height: 116px;
+    left: 10px;
+    top: 10px;
+    overflow: hidden
+}
+
+#carousel-spiral figure:nth-child(1) {
+    transform: rotateY(0) translateZ(400px)
+}
+
+#carousel-spiral figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(400px)
+}
+
+#carousel-spiral figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(400px)
+}
+
+#carousel-spiral figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(400px)
+}
+
+#carousel-spiral figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(400px)
+}
+
+#carousel-spiral figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(400px)
+}
+
+#carousel-spiral figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(400px)
+}
+
+#carousel-spiral figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(400px)
+}
+
+#carousel-spiral figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(400px)
+}
+
+#carousel2-spiral {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: antirotation 20s infinite linear;
+    top: 7em
+}
+
+#carousel2-spiral:hover {
+    animation-play-state: paused
+}
+
+#carousel2-spiral figure {
+    display: block;
+    position: absolute;
+    width: 186px;
+    height: 116px;
+    left: 10px;
+    top: 10px;
+    overflow: hidden
+}
+
+#carousel2-spiral figure:nth-child(1) {
+    transform: rotateY(0) translateZ(400px)
+}
+
+#carousel2-spiral figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(400px)
+}
+
+#carousel2-spiral figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(400px)
+}
+
+#carousel2-spiral figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(400px)
+}
+
+#carousel2-spiral figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(400px)
+}
+
+#carousel2-spiral figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(400px)
+}
+
+#carousel2-spiral figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(400px)
+}
+
+#carousel2-spiral figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(400px)
+}
+
+#carousel2-spiral figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(400px)
+}
+
+#carousel3-spiral {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotation 20s infinite linear;
+    top: 15em;
+    z-index: -1000
+}
+
+#carousel3-spiral:hover {
+    animation-play-state: paused
+}
+
+#carousel3-spiral figure {
+    display: block;
+    position: absolute;
+    width: 186px;
+    height: 116px;
+    left: 10px;
+    top: 10px;
+    overflow: hidden
+}
+
+#carousel3-spiral figure:nth-child(1) {
+    transform: rotateY(0) translateZ(400px)
+}
+
+#carousel3-spiral figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(400px)
+}
+
+#carousel3-spiral figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(400px)
+}
+
+#carousel3-spiral figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(400px)
+}
+
+#carousel3-spiral figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(400px)
+}
+
+#carousel3-spiral figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(400px)
+}
+
+#carousel3-spiral figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(400px)
+}
+
+#carousel3-spiral figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(400px)
+}
+
+#carousel3-spiral figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(400px)
+}
+
+#carousel4-spiral {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: antirotation 20s infinite linear;
+    top: 22em;
+    z-index: -99999
+}
+
+#carousel4-spiral:hover {
+    animation-play-state: paused
+}
+
+#carousel4-spiral figure {
+    display: block;
+    position: absolute;
+    width: 186px;
+    height: 116px;
+    left: 10px;
+    top: 10px;
+    overflow: hidden
+}
+
+#carousel4-spiral figure:nth-child(1) {
+    transform: rotateY(0) translateZ(400px)
+}
+
+#carousel4-spiral figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(400px)
+}
+
+#carousel4-spiral figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(400px)
+}
+
+#carousel4-spiral figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(400px)
+}
+
+#carousel4-spiral figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(400px)
+}
+
+#carousel4-spiral figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(400px)
+}
+
+#carousel4-spiral figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(400px)
+}
+
+#carousel4-spiral figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(400px)
+}
+
+#carousel4-spiral figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(400px)
+}
+
+#client-logo img {
+    -webkit-filter: grayscale(0);
+    cursor: pointer;
+    transition: all .5s ease
+}
+
+#client-logo img:hover {
+    -webkit-filter: grayscale(1);
+    transform: scale(1, 1)
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateY(0)
+    }
+    to {
+        transform: rotateY(360deg)
+    }
+}
+
+@keyframes antirotation {
+    from {
+        transform: rotateY(0)
+    }
+    to {
+        transform: rotateY(360deg)
+    }
+}
+
+#client-logo .img2 {
+    -webkit-filter: grayscale(0);
+    cursor: pointer;
+    transition: all .5s ease
+}
+
+#client-logo .img2:hover {
+    -webkit-filter: grayscale(1);
+    transform: scale(1, 1)
+}
+
+#client-logo img#videosubstitute {
+    width: 100%
+}
+
+#client-logo img {
+    width: 80%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    padding: 20px 0
+}
+
+#client-logo img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
